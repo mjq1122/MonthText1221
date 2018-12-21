@@ -37,6 +37,7 @@ public class SyPicAdapter extends PagerAdapter {
     public Object instantiateItem(ViewGroup container, int position) {
         ImageView imageView = new ImageView(context);
         container.addView(imageView);
+
         return imageView;
     }
 
